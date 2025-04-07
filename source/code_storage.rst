@@ -1,7 +1,7 @@
 Code and Analysis Storage
 ==============================
 
-When developing tools and/or analyses that are to be used by people within the group, the code should be stored within a repository in the uasal group.
+When developing tools and/or analyses that are to be used by people within the group, the code should be stored within a repository in the UASAL group.
 This is to ensure that code is not stored in personal repositories where access is controlled by only a single person. 
 It also promotes contributions from your colleagues via the healthy development practices discussed in this guide.
 
@@ -37,11 +37,12 @@ It also provides guidance on where to create the ticket.
 
 Inside your analysis directory, which you will create, it is important to generate the following files:
 
-- `README.md` - This is to explain the contents of the directory, the reason for performing the analysis, and what it affects. A description of key input and output files is also encouraged.
-- Details regarding the environment in which it was run. This could be showing the key package versions from within a notebook, by supplying the details of a conda environment, or by providing a manual write-up.  
-- The code to run the analysis (e.g. a python script)
+- `README.md` - This is to explain the contents of the directory, the reason for performing the analysis, and what it affects. A description of key input and output files is also encouraged. Also helpful is how long it takes the code to run and on which hardware.
+- Details regarding the environment in which it was run. This could be showing the key installed package/repository versions from within a notebook, by supplying the details of a conda environment, or by providing a manual write-up.  
+- The code to run the analysis (e.g. a python script, jupyter notebook)
 - A report of the final results, including any limitations, or impact to requirements/budgets etc.
 
 Areas of analyses storage are as follows:
+
 - [ESC related analyses](https://github.com/uasal/spacecoron_design_docs/tree/develop/Analysis)
-.. - [WCC related analysis](https://github.com/uasal/wcc_designdocs/tree/develop/Analysis)
+
